@@ -99,9 +99,9 @@ for source in log_sources:
 log.setLevel(SRC_LOG_LEVELS["CONFIG"])
 
 
-WEBUI_NAME = os.environ.get("WEBUI_NAME", "Open WebUI")
-if WEBUI_NAME != "Open WebUI":
-    WEBUI_NAME += " (Open WebUI)"
+WEBUI_NAME = os.environ.get("WEBUI_NAME", "Chat GPT")
+if WEBUI_NAME != "Chat GPT":
+    WEBUI_NAME += " (Chat GPT)"
 
 WEBUI_FAVICON_URL = "https://openwebui.com/favicon.png"
 
